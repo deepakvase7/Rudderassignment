@@ -8,7 +8,9 @@ This repository contains 3 files
 3. postman-collection-import
 
 1-> It contains the Javascript and HTML code for our application.In this we have also added the script for integrating with Rudderstack.
+
 2->This file contains configuration for running the app on local Docker environment.
+
 3->This is the postman collection which is imported in Postman app and then used for sending & testing for various events like 'track','page',etc.
 
 
@@ -34,6 +36,10 @@ Created a simple JS website  and sent events to rudderstack
 Open javascript_page.html in a browser to open the website.
 
 It consists 'Add to cart' and 'Checkout button' which trigger the track events.
+
+After clicking on any of the buttons alert is displayed informing the user that button was clicked .
+Enter OK.
+To check if events are reaching to the destination .Go to the webhook url https://webhook.site/801cda44-4128-467e-8c07-139d39ac850f 
 
 ******** Step 3 ********
 Moved to developer setup / docker
